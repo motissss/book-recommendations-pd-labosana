@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <h1>Grāmatu vērtēšana</h1>
+    <form>
+        <label>Vārds:</label></br>
+        <input type="text" name="first_name"></br>
+        <label>Uzvārds:</label></br>
+        <input type="text" name="last_name"></br>
+        <label>Līmenis:</label></br>
+        <select name="level">
+            <option value="1">Nelasāma</option>
+            <option value="2">Slikta</option>
+            <option value="3">Viduvēja</option>
+            <option value="4">Laba</option>
+            <option value="5">Lieliska</option>
+        </select></br>
+        <label>Nosaukums:</label></br>
+        <input type="text" name="name"></br>
+        <label>Apraksts:</label></br>
+        <textarea name="review"></textarea>
+    </form>
 </body>
 </html>
